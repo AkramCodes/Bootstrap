@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap.bundle.min.js"> -->
+    <style>
+         .container-fluid{
+     min-height: 500px;
+     margin: auto;
+ }
+ .item-1, .item-2{
+     height: 60px;
+     color: white;
+    font-size: 20px;
+ }
+
+ .item-3, .item-4{
+    height: 100px;
+    font-size: 20px;
+ }
+
+ .item-5, .item-6, .item-7{
+    height: 125px;
+   font-size: 20px;
+ }
+
+ .item{
+    height: 100px;
+ }
+
+ .header{
+    height:60px;
+
+ }
+
+ .content{
+    height: 400px;
+    font-size: 250px;
+ }
+
+ .sidebar{
+    height: 700px;
+    font-size: 75px;
+ }
+
+ .main{
+    height:300px;
+    font-size: 150px;
+ }
+
+ .image{
+    height: 300px;
+    position: absolute;
+    left: 380px;
+    top: -400px;
+    font-size: 150px;
+ }
+
+ .parent-1{
+    position: relative;
+ }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid  bg-light">
+        
+      <div class="row g-4">
+   <div class="col-2 rounded">
+    <div class="item-1 bg-dark d-flex justify-content-center align-items-center">Mobile</div>
+    <div class="item-2 bg-secondary d-flex justify-content-center align-items-center">Home</div>
+    <div class="item-3 bg-success d-flex justify-content-center align-items-center">Hero</div>
+    <div class="item-4 bg-warning d-flex justify-content-center align-items-center">Main</div>
+    <div class="item-5 bg-danger d-flex justify-content-center align-items-center">Banner</div>
+    <div class="item-6 bg-info d-flex justify-content-center align-items-center">Extra</div>
+    <div class="item-7 bg-primary d-flex justify-content-center align-items-center">Image</div>
+   </div>
+      </div>
+
+
+      <div class="row g-4 my-5" >
+        
+      <div class="col-2">
+        <div class="item bg-danger"></div>
+          </div>
+
+          <div class="col-2">
+            <div class="item bg-danger"></div>
+              </div>
+
+              <div class="col-2">
+                <div class="item bg-danger"></div>
+                  </div>
+
+                  <div class="col-2">
+                    <div class="item bg-danger"></div>
+                      </div>
+
+                      <div class="col-2">
+                        <div class="item bg-danger"></div>
+                          </div>
+
+                          <div class="col-2">
+                            <div class="item bg-danger"></div>
+                              </div>
+       </div>
+
+    
+       <div class="row g-4 mx-5">
+        <div class=" header col-12 bg-info d-flex align-items-center justify-content-center">Header</div>
+       </div>
+
+       <div class="row g-4 mx-5">
+        <div class=" content col-12 bg-warning d-flex align-items-center justify-content-center">Content</div>
+       </div>
+
+       <div class="row g-4 mx-5">
+        <div class=" sidebar col-4 bg-success d-flex align-items-center 
+       justify-content-center">Side bar</div>
+
+       <div class=" main col-8 bg-primary d-flex align-items-center 
+       justify-content-center">Main</div>
+       </div>
+      
+       <div class=" parent-1 row mx-5">
+        <div class=" image col-8 bg-warning d-flex align-items-center 
+        justify-content-center">image</div>
+
+       </div>
+</body>
+</html>
